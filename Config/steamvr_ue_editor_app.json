@@ -5,7 +5,7 @@
 			"app_key": "application.generated.ue.reaction-13594126.ue4editor.exe",
 			"launch_type": "url",
 			"url": "steam://launch/",
-			"action_manifest_path": "D:/Backups/Reaction/Config/SteamVRBindings/steamvr_manifest.json",
+			"action_manifest_path": "D:/Github/MajorProject_Reaction/Config/SteamVRBindings/steamvr_manifest.json",
 			"strings":
 			{
 				"en_us":
