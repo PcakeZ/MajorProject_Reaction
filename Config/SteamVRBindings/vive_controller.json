@@ -52,6 +52,28 @@
 					}
 				},
 				{
+					"mode": "button",
+					"path": "/user/hand/left/input/grip",
+					"inputs":
+					{
+						"click":
+						{
+							"output": "/actions/main/in/GripPressed_L"
+						}
+					}
+				},
+				{
+					"mode": "button",
+					"path": "/user/hand/right/input/grip",
+					"inputs":
+					{
+						"click":
+						{
+							"output": "/actions/main/in/GripPressed_R"
+						}
+					}
+				},
+				{
 					"mode": "trackpad",
 					"path": "/user/hand/right/input/trackpad",
 					"inputs":

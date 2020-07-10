@@ -94,6 +94,14 @@
 			"type": "boolean"
 		},
 		{
+			"name": "/actions/main/in/GripPressed_L",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/main/in/GripPressed_R",
+			"type": "boolean"
+		},
+		{
 			"name": "/actions/main/in/JoystickAxisRight_X,JoystickAxisRight_Y X Y_axis2d",
 			"type": "vector2"
 		},
@@ -220,6 +228,8 @@
 			"/actions/main/in/Trigger_R": "Trigger_R",
 			"/actions/main/in/JoystickPressed_L": "JoystickPressed_L",
 			"/actions/main/in/JoystickPressed_R": "JoystickPressed_R",
+			"/actions/main/in/GripPressed_L": "GripPressed_L",
+			"/actions/main/in/GripPressed_R": "GripPressed_R",
 			"/actions/main/in/JoystickAxisRight_X,JoystickAxisRight_Y X Y_axis2d": "JoystickAxisRight",
 			"/actions/main/in/JoystickAxisLeft_X,JoystickAxisLeft_Y X Y_axis2d": "JoystickAxisLeft",
 			"/actions/main": "Main Game Actions"
