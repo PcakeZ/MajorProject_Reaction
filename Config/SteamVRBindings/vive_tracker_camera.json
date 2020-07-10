@@ -36,7 +36,7 @@
 					{
 						"click":
 						{
-							"output": "/actions/main/in/TrackpadDown_L"
+							"output": "/actions/main/in/JoystickPressed_L"
 						}
 					}
 				},
@@ -47,37 +47,29 @@
 					{
 						"click":
 						{
-							"output": "/actions/main/in/TrackpadDown_R"
+							"output": "/actions/main/in/JoystickPressed_R"
 						}
 					}
 				},
 				{
-					"mode": "dpad",
+					"mode": "trackpad",
 					"path": "/user/hand/right/input/trackpad",
-					"parameters":
-					{
-						"sub_mode": "click"
-					},
 					"inputs":
 					{
-						"west":
+						"position":
 						{
-							"output": "/actions/main/in/TrackpadLeft"
+							"output": "/actions/main/in/JoystickAxisRight_X,JoystickAxisRight_Y X Y_axis2d"
 						}
 					}
 				},
 				{
-					"mode": "dpad",
-					"path": "/user/hand/right/input/trackpad",
-					"parameters":
-					{
-						"sub_mode": "click"
-					},
+					"mode": "trackpad",
+					"path": "/user/hand/left/input/trackpad",
 					"inputs":
 					{
-						"east":
+						"position":
 						{
-							"output": "/actions/main/in/TrackpadRight"
+							"output": "/actions/main/in/JoystickAxisLeft_X,JoystickAxisLeft_Y X Y_axis2d"
 						}
 					}
 				}
