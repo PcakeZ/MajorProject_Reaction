@@ -106,6 +106,14 @@
 			"type": "boolean"
 		},
 		{
+			"name": "/actions/main/in/TouchpadRightPressed (L)",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/main/in/TouchpadLefttPressed (L)",
+			"type": "boolean"
+		},
+		{
 			"name": "/actions/main/in/JoystickAxisRight_X,JoystickAxisRight_Y X Y_axis2d",
 			"type": "vector2"
 		},
@@ -235,6 +243,8 @@
 			"/actions/main/in/GripPressed_L": "GripPressed_L",
 			"/actions/main/in/GripPressed_R": "GripPressed_R",
 			"/actions/main/in/Menu (R)": "Menu (R)",
+			"/actions/main/in/TouchpadRightPressed (L)": "TouchpadRightPressed (L)",
+			"/actions/main/in/TouchpadLefttPressed (L)": "TouchpadLefttPressed (L)",
 			"/actions/main/in/JoystickAxisRight_X,JoystickAxisRight_Y X Y_axis2d": "JoystickAxisRight",
 			"/actions/main/in/JoystickAxisLeft_X,JoystickAxisLeft_Y X Y_axis2d": "JoystickAxisLeft",
 			"/actions/main": "Main Game Actions"
